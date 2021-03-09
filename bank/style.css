@@ -1,0 +1,224 @@
+html,body{
+	margin:0px;
+	padding: 0px;
+	overflow-x: hidden;
+	width: 100%;
+	
+	
+}
+
+/*header start from here */
+.header-one{
+	margin-top: 20px;
+}
+.banner img{
+	width: 100%;
+}
+.font-vir > p{
+	height: 135px;
+	width: 20px;
+	writing-mode: vertical-lr;
+	background-color: transparent;
+	position: fixed;
+	top:290px;
+	right:97%;
+	text-align: center;
+	font-size: 12px;
+	
+}
+/*header end from here */
+/* feature start*/
+.section-one{
+	background-color: #F5F5F5;
+}
+#feture{
+    padding: 5% 10%;
+    background: white;
+}
+
+.f-colam{
+	width: 290px;
+	height: 250px;
+    border: 1px solid #E7E7E7;
+	background-color:  #FFFFFF;
+    padding: 15px;
+    border-radius: 40px;
+    margin: 20px 0 auto;
+    transition: .4s;
+
+}
+.f-colam:hover{
+  
+	cursor: pointer;
+    box-shadow: 6px 5px 20px 5px rgb(0 0 0 / 10%), -6px 4px 9px 6px rgb(0 0 0 / 4%);
+
+	background-color: #FFFFFF;
+}
+.f-colam .anchor{
+	text-decoration: none;
+	color: black;
+}
+.icon-style{
+    background:rgb(20, 19, 19);
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.col-lg-3.col-md-6.col-sm-12.d-block.d-lg-flex.mt-1 {
+    margin-bottom: 0px;
+}
+
+/* feature end*/
+/* lifestyle start from here*/
+.section-two{
+	background-color:#F5F5F5 ;
+}
+ .life-style > h2{
+	width: 125px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	margin: auto;
+}
+.section-one .life-style{
+	margin-top: 70px;
+}
+.section-one{
+	background-color: #F5F5F5;
+}
+#feture{
+    padding: 5% 10%;
+    background: white;
+}
+
+.f-colam-one{
+	width: 290px;
+	height: 270px;
+  
+	background-color:  #FFFFFF;
+    padding: 15px;
+
+    margin: 20px 0 auto;
+    transition: .1s;
+	
+}
+.f-colam-one >img{
+	width: 50%;
+    height: 42%;
+	display: flex;
+	
+}
+
+.f-colam-one:hover{
+	transform: scale(1.1);
+    box-shadow: 26px 20px 75px 22px rgb(0 0 0 / 31%), 0px 0px 0px 0px rgb(0 0 0 / 24%);
+	background-color: #FFFFFF;
+	
+}
+
+.f-colam-one > p{
+	color:#191919;
+	font-size: 18px;
+	margin-bottom: 2px;
+	
+}
+.f-colam-one > span{
+	text-align: center;
+	display: block;
+	color: #304EA1;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+/* lifestyle end from here*/
+
+/* watches start from here*/
+.section-three{
+	background-color:#F5F5F5 ;
+}
+/* watches end from here*/
+
+/* flowers  start from here*/
+.section-four{
+	background-color:#F5F5F5 ;
+}
+
+/* flowers end from here*/
+/* Restaurants start from here*/
+
+.section-five{
+	background-color:#F5F5F5 ;
+}
+.section-five .rightmargin{
+	margin-right: 50px;
+}
+/* Restaurants end from here*/
+
+/* Jewellery start from here*/
+.section-six{
+	background-color:#F5F5F5 ;
+}
+
+/* Jewellery end from here*/
+/* books start from here*/
+
+.section-seven{
+	background-color:#F5F5F5 ;
+}
+.section-seven .rightmargin-two{
+	margin-right: 60px;
+}
+/* books end from here*/
+
+/* bogo start from here*/
+.section-eight{
+	background-color:#F5F5F5 ;
+}
+
+/* bogo end from here*/
+
+
+/* Health & Personal start from here*/
+.section-nine{
+	background-color:#F5F5F5 ;
+}
+.section-nine .leftmargin{
+	margin-left: 90px;
+}
+.section-nine .p-footer{
+	color: #7E7E7E;
+	margin-top: 60px;
+	margin-left: 110px;
+	font-size: 14px;
+	padding-bottom: 50px;
+}
+/* Health & Personal end from here*/
+
+/*footer section start from here */
+.section-ten{
+	background-color: #E7E7E7;
+}
+.section-ten .p-last{
+	color: #7E7E7E;
+	font-size: 14px;
+	margin-left: 100px;
+}
+/*footer section end from here */
+/* responsive start */
+@media only screen and (max-width: 768px) {
+
+.f-colam {
+		margin: auto;
+		width: 100%;
+
+}
+.f-colam-one {
+		margin: auto;
+		width: 100%;
+}
+
+}
+
+
+
+/* responsive end */
